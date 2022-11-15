@@ -1,0 +1,46 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 1em;
+    background: darkolivegreen;
+}
+
+#results {
+    padding: 2em;
+}
+
+.product {
+    display: inline-block;
+    border: 1px solid black;
+    margin: 1em;
+    min-width: 300px;
+    background: white;
+    line-height: 3em;
+    vertical-align: middle;
+}
+
+body > a {
+    display: inline-block;
+    background: darkblue;
+    color: darkorange;
+    padding: 1em;
+    margin: 1em;
+}
+
+.product a {
+    display: block;
+    padding: 1em;
+    vertical-align: middle;
+    line-height: 3em;
+    text-decoration: none;
+    color: black;
+}
+
+.product a * {
+    vertical-align: middle;
+    line-height: 3em;
+}
+
+.icon {
+    width: 36px;
+    height: 36px;
+}
